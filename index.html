@@ -1191,7 +1191,7 @@ const Database = {
   // Admin functions
   function showAdminPanel() {
       const password = prompt("Enter admin password:");
-      if (password === "admin123") {
+      if (password === "mainman@12") {
           document.getElementById('mainSite').classList.add('admin-hidden');
           document.getElementById('adminPanel').classList.remove('admin-hidden');
           currentView = 'admin';
@@ -1442,7 +1442,7 @@ document.addEventListener('DOMContentLoaded', async function() {
       // Initialize admin form
       initializeAdminForm();
 
-      console.log('Admin password: admin123');
+      console.log('Admin password: mainman@12');
   });
 async function submitPackage() {
     const form = document.getElementById('packageForm');
