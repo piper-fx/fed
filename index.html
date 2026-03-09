@@ -651,7 +651,7 @@
 <script type="text/javascript">
 (function(w,d,v3){
 w.chaportConfig = {
-appId : '69a965256f03a80d68b78e01',
+appId : '69ae33eab9d67dc9c7c3a6cc',
 };
 
 if(w.chaport)return;v3=w.chaport={};v3._q=[];v3._l={};v3.q=function(){v3._q.push(arguments)};v3.on=function(e,fn){if(!v3._l[e])v3._l[e]=[];v3._l[e].push(fn)};var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://app.chaport.com/javascripts/insert.js';var ss=d.getElementsByTagName('script')[0];ss.parentNode.insertBefore(s,ss)})(window, document);
@@ -1191,7 +1191,7 @@ const Database = {
   // Admin functions
   function showAdminPanel() {
       const password = prompt("Enter admin password:");
-      if (password === "mainman@12") {
+      if (password === "admin123@") {
           document.getElementById('mainSite').classList.add('admin-hidden');
           document.getElementById('adminPanel').classList.remove('admin-hidden');
           currentView = 'admin';
@@ -1442,7 +1442,7 @@ document.addEventListener('DOMContentLoaded', async function() {
       // Initialize admin form
       initializeAdminForm();
 
-      console.log('Admin password: mainman@12');
+      console.log('Admin password: admin123@');
   });
 async function submitPackage() {
     const form = document.getElementById('packageForm');
